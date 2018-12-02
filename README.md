@@ -11,6 +11,7 @@ $ composer install
 $ setup your .env
 $ php artisan migrate
 $ php artisan migrate --path=database/migrations/new
+$ php artisan key:generate
 $ php artisan serve
 $ run browser localhost:8000
 ```
@@ -22,3 +23,4 @@ $ run browser localhost:8000
 ## Disclaimer
 
 ## License
+MIT LICENSE
