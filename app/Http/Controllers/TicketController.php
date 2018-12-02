@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-require_once '/home/ranjith/proj1/vendor/autoload.php';
 use Twilio\Rest\Client;
 use Illuminate\Http\Request;
 use App\Ticket;
@@ -45,39 +44,6 @@ class TicketController extends Controller
     	
     	}
     	$ticket->save();
-
-        /*$accountSid = env('TWILIO_ACCOUNT_SID');
-        $authToken = env('TWILIO_AUTH_TOKEN');
-        $twilioNumber = env('TWILIO_NUMBER');
-
-        $message = "Pink Elephants and Happy Rainbows";
-
-        $client = new Client($accountSid, $authToken);
-
-        try {
-            $client->messages->create(
-                $to,
-                [
-                    "body" => $message,
-                    "from" => $twilioNumber
-                    //   On US phone numbers, you could send an image as well!
-                    //  'mediaUrl' => $imageUrl
-                ]
-            );
-            Log::info('Message sent to ' . $twilioNumber);
-        } catch (TwilioException $e) {
-            Log::error(
-                'Could not send SMS notification.' .
-                ' Twilio replied with: ' . $e
-            );
-        }
-
-            /*$sid = "AC79ce3f10c75ab2d7f5be866d09e9c7ef"; // Your Account SID from www.twilio.com/console
-            $token = "a7092486f73090fb3bc8a5e8d9a5d413"; // Your Auth Token from www.twilio.com/console
-            $fromNumber = "+18599037961";*/
-
-            //$twilio = new \Aloha\Twilio\Twilio($sid, $token, $fromNumber);
-            //$twilio->message('+919483722078', 'Pink Elephants and Happy Rainbows');
 
     	return view('tickets.booked')->with(compact('ticket', 'bus', 'available'));
     }

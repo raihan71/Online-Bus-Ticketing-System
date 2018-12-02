@@ -1,7 +1,11 @@
-@extends('layouts.app')
+@extends('layouts.layout-utama')
+
+@section('judul')
+Register
+@stop
 
 @section('content')
-<div class="container">
+<div class="section-center container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">

@@ -1,7 +1,24 @@
-# Online-Bus-Ticketing-System
-Laravel implementation of a sample website for online bus ticketing. 
+<p align="center">
+</p>
 
-Built on: Ubuntu
-Server Tested on: Apache
+## Overview
+<p>Kitabooking is application for booking transportation system.</p>
 
-Change the values in .env.example to run on your local machine.
+## Installation
+```sh
+$ cp .env.example .env
+$ composer install
+$ setup your .env
+$ php artisan migrate
+$ php artisan migrate --path=database/migrations/new
+$ php artisan serve
+$ run browser localhost:8000
+```
+
+## Features & Plugins
+
+
+
+## Disclaimer
+
+## License

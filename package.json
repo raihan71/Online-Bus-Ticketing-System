@@ -17,5 +17,9 @@
         "laravel-mix": "^1.0",
         "lodash": "^4.17.4",
         "vue": "^2.1.10"
+    },
+    "dependencies": {
+        "underscore": "^1.9.1",
+        "vanilla-masker": "^1.2.0"
     }
 }
