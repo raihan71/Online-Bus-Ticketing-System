@@ -17,9 +17,9 @@ class CreateReservationsTable extends Migration
             $table->increments('id');
             $table->string('kode_trx')->nullable();
             $table->unsignedInteger('ticket_id')->nullable();
-            $table->foreign('ticket_id')->references('id')->on('tickets');
+            $table->foreign('ticket_id')->references('id')->on('tickets')->onDelete('cascade');
             $table->unsignedInteger('user_id')->nullable();
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->string('name')->nullable();
             $table->string('email')->nullable();
             $table->string('phone')->nullable();
