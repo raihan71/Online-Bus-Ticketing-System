@@ -1,10 +1,10 @@
 <p align="center">
 </p>
 
-## Overview
-<p>Kitabooking is application for booking transportation system.</p>
+## Overview :tada:
+<p>Kitabooking is application for booking transportation system. This repo is modified version from <b>@ranjithm9634</b>'s repo </p>
 
-## Installation
+## Installation :zap:
 ```sh
 $ cp .env.example .env
 $ composer install
@@ -16,11 +16,26 @@ $ php artisan serve
 $ run browser localhost:8000
 ```
 
-## Features & Plugins
-
-
+## Features & Plugins :art:
+### Features
+#### ADMIN
+- Manage tickets
+- Manage categories
+- Manage reservations
+- Manage members
+- Manage brands
+#### USER
+- Manage MyTicket
+- Searching ticket based category
+- Book tickets
+### Plugins
+- bootstrapselectjs
+- datetimepickerjs
+- vanillamaskjs
+- datatables (server side) using yajra
 
 ## Disclaimer
+This repo originally created by @ranjithm9634
 
 ## License
 MIT LICENSE
