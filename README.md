@@ -36,6 +36,11 @@ $ run browser localhost:8000
 - vanillamaskjs
 - datatables (server side) using yajra
 
+## Usage 
+- register your user
+- change to <b>true</b>=1 for access admin area 
+- using factory to fill data if you don't have data
+
 ## Disclaimer
 This repo originally created by @ranjithm9634
 
