@@ -1,4 +1,5 @@
 <p align="center">
+  Kitakursus x kitabooking 
 </p>
 
 ## Overview :tada:
@@ -30,7 +31,8 @@ $ run browser localhost:8000
 - Book tickets
 ### Plugins
 - bootstrapselectjs
-- datetimepickerjs
+- pickdatejs
+- pickdatetimejs
 - vanillamaskjs
 - datatables (server side) using yajra
 
