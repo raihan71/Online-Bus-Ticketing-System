@@ -1,4 +1,4 @@
-<p align="center">
+<p align="center" style="color:#007791">
   Kitakursus x kitabooking 
 </p>
 
